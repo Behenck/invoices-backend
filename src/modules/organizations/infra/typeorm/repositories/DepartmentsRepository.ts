@@ -22,6 +22,14 @@ class DepartmentsRepository implements IDepartmentsRepository {
         const department = await this.repository.find();
         return department;
     }
+
+    async findByName(name: string): Promise<Department> {
+        const department = await this.repository.findOne({
+            name
+        });
+
+        return department;
+    }
 }
 
 export { DepartmentsRepository }
