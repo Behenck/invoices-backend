@@ -9,8 +9,10 @@ export class CreateStatus1655236394447 implements MigrationInterface {
                 columns: [
                     {
                         name: "id",
-                        type: "numeric",
-                        isPrimary: true
+                        type: "int",
+                        isPrimary: true,
+                        isGenerated: true,
+                        generationStrategy: 'increment',
                     },
                     {
                         name: "name",

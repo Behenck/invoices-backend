@@ -1,16 +1,16 @@
 import { Request, Response } from "express";
 import { container } from "tsyringe";
-import { CreateDepartmentUseCase } from "./CreateDepartmentUseCase";
+import { CreateOrganizationUseCase } from "./CreateOrganizationUseCase";
 
 
 
-class CreateDepartmentController {
+class CreateOrganizationController {
     async handle(request: Request, response: Response): Promise<Response> {
         const { name } = request.body;
 
-        const createDepartmentUseCase = container.resolve(CreateDepartmentUseCase);
+        const createOrganizationUseCase = container.resolve(CreateOrganizationUseCase);
 
-        await createDepartmentUseCase.execute({
+        await createOrganizationUseCase.execute({
             name
         });
 
@@ -18,4 +18,4 @@ class CreateDepartmentController {
     }
 }
 
-export { CreateDepartmentController }
+export { CreateOrganizationController }

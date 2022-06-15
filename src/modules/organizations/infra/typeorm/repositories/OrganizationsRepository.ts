@@ -22,6 +22,14 @@ class OrganizationsRepository implements IOrganizationsRepository {
         const organization = await this.repository.find();
         return organization;
     }
+
+    async findByName(name: string): Promise<Organization> {
+        const organization = await this.repository.findOne({
+            name
+        });
+
+        return organization;
+    }
 }
 
 export { OrganizationsRepository }

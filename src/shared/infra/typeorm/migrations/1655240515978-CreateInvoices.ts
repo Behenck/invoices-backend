@@ -35,10 +35,12 @@ export class CreateInvoices1655240515978 implements MigrationInterface {
                     {
                         name: "payment_date",
                         type: "timestamp",
+                        isNullable: true
                     },
                     {
                         name: "launch_date",
                         type: "timestamp",
+                        isNullable: true
                     },
                     {
                         name: "competence_month",
@@ -53,16 +55,9 @@ export class CreateInvoices1655240515978 implements MigrationInterface {
                         type: "numeric",
                     },
                     {
-                        name: "invoice_numeric",
-                        type: "numeric",
-                    },
-                    {
-                        name: "invoice_name",
-                        type: "varchar",
-                    },
-                    {
                         name: "description",
                         type: "varchar",
+                        isNullable: true
                     },
                     {
                         name: "created_at",
@@ -73,6 +68,40 @@ export class CreateInvoices1655240515978 implements MigrationInterface {
                         name: "updated_at",
                         type: "timestamp",
                         default: "now()"
+                    }
+                ],
+                foreignKeys: [
+                    {
+                        name: "FKInvoiceDepartment",
+                        referencedTableName: "departments",
+                        referencedColumnNames: ["id"],
+                        columnNames: ["department_id"],
+                        onDelete: "SET NULL",
+                        onUpdate: "SET NULL"
+                    },
+                    {
+                        name: "FKInvoiceIssuer",
+                        referencedTableName: "issuers",
+                        referencedColumnNames: ["id"],
+                        columnNames: ["issuer_id"],
+                        onDelete: "SET NULL",
+                        onUpdate: "SET NULL"
+                    },
+                    {
+                        name: "FKInvoiceOrganization",
+                        referencedTableName: "organizations",
+                        referencedColumnNames: ["id"],
+                        columnNames: ["organization_id"],
+                        onDelete: "SET NULL",
+                        onUpdate: "SET NULL"
+                    },
+                    {
+                        name: "FKInvoiceStatus",
+                        referencedTableName: "status",
+                        referencedColumnNames: ["id"],
+                        columnNames: ["status_id"],
+                        onDelete: "SET NULL",
+                        onUpdate: "SET NULL"
                     }
                 ]
             })
