@@ -15,6 +15,9 @@ import { StatusRepository } from '@modules/invoices/infra/typeorm/repositories/S
 import { IInvoicesRepository } from '@modules/invoices/repositories/IInvoicesRepository';
 import { InvoicesRepository } from '@modules/invoices/infra/typeorm/repositories/InvoicesRepository';
 
+import { IInvoiceDocumentsRepository } from "@modules/invoices/repositories/IInvoiceDocumentsRepository";
+import { InvoiceDocumentsRepository } from "@modules/invoices/infra/typeorm/repositories/InvoiceDocumentsRepository";
+
 container.registerSingleton<IDepartmentsRepository>(
     "DepartmentsRepository",
     DepartmentsRepository
@@ -38,4 +41,9 @@ container.registerSingleton<IStatusRepository>(
 container.registerSingleton<IInvoicesRepository>(
     "InvoicesRepository",
     InvoicesRepository
+);
+
+container.registerSingleton<IInvoiceDocumentsRepository>(
+    "InvoiceDocumentsRepository",
+    InvoiceDocumentsRepository
 );
