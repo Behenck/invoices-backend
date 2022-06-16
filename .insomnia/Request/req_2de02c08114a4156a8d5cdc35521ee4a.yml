@@ -1,0 +1,36 @@
+_id: req_2de02c08114a4156a8d5cdc35521ee4a
+type: Request
+parentId: fld_165e47e7b4544041b61f9a3cb96ce8b2
+modified: 1655328203130
+created: 1655319254828
+url: "{{ _.baseURL }}/invoices"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"amount": 300,
+    	"competence_month": 6,
+    	"competence_year": 2022,
+    	"department_id": "68ebd999-30d3-4c47-9544-d6216867448d",
+    	"due_date": "2022-06-15T18:56:18.945Z",
+    	"issuer_id": "43fcbd59-4d57-419b-b555-5bb3df5eea2b",
+    	"organization_id": "764d57b7-7e38-458d-95d4-0fef457a8a8f",
+    	"status_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0724ef804c5847ad9fbee04e1a08d81d
+authentication: {}
+metaSortKey: -1655319254828
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_1cf5783d8cef48eda48d518371dd640b
+type: Request
+parentId: fld_165e47e7b4544041b61f9a3cb96ce8b2
+modified: 1655343633578
+created: 1655328178705
+url: "{{ _.baseURL }}/invoices/documents/a4898faa-e6b5-4604-a61e-798ce82e7962"
+name: Upload Document
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_37e8f360bdc34fae895ee3a59b88aadf
+      name: documents
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\Denilson\Downloads\hipercard_•••• 3679_fatura_2022-06.pdf
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_165d1a8b51a046f78e5103387c91d913
+authentication: {}
+metaSortKey: -1655328178705
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

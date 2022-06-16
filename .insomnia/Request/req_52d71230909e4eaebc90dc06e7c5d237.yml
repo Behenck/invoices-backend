@@ -1,0 +1,30 @@
+_id: req_52d71230909e4eaebc90dc06e7c5d237
+type: Request
+parentId: fld_580acaf5b51246d3921d8315dc83b906
+modified: 1655319486293
+created: 1655301675284
+url: "{{ _.baseURL }}/issuers"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Ávato",
+    	"description": "Internet"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_759cad316ea64fafba3871f95a74f18f
+authentication: {}
+metaSortKey: -1655301675284
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

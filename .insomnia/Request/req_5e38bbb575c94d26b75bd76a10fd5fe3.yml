@@ -1,0 +1,30 @@
+_id: req_5e38bbb575c94d26b75bd76a10fd5fe3
+type: Request
+parentId: fld_98a1ef77ed134d77a9ec7dc3ea05a44f
+modified: 1655303730438
+created: 1655303568101
+url: "{{ _.baseURL }}/status"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Paga",
+    	"description": "A nota fiscal foi paga"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_abf3e314242545908ffe2a1abe56636d
+authentication: {}
+metaSortKey: -1655303568101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

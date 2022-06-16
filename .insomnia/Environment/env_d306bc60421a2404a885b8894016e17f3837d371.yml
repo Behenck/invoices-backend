@@ -1,0 +1,20 @@
+_id: env_d306bc60421a2404a885b8894016e17f3837d371
+type: Environment
+parentId: wrk_a40f63e4ff88420a968f39f455ee6ae4
+modified: 1655319597994
+created: 1652289133287
+name: Base Environment
+data:
+  baseURL: http://localhost:3333
+  organization_id: 764d57b7-7e38-458d-95d4-0fef457a8a8f
+  department_id: 68ebd999-30d3-4c47-9544-d6216867448d
+  issuer_id: 43fcbd59-4d57-419b-b555-5bb3df5eea2b
+dataPropertyOrder:
+  "&":
+    - baseURL
+    - organization_id
+    - department_id
+    - issuer_id
+color: null
+isPrivate: false
+metaSortKey: 1652289133287

@@ -1,0 +1,21 @@
+_id: req_b08dc2e888c1436d8e81579c735a67e6
+type: Request
+parentId: fld_98a1ef77ed134d77a9ec7dc3ea05a44f
+modified: 1655303910952
+created: 1655303566757
+url: "{{ _.baseURL }}/status"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655303566757
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

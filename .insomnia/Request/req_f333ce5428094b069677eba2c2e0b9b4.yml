@@ -1,0 +1,21 @@
+_id: req_f333ce5428094b069677eba2c2e0b9b4
+type: Request
+parentId: fld_165e47e7b4544041b61f9a3cb96ce8b2
+modified: 1655321174473
+created: 1655319253332
+url: "{{ _.baseURL }}/invoices"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655319253332
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

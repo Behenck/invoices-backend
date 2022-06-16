@@ -1,0 +1,29 @@
+_id: req_6fb4fcaf87c04b6da430ea42711b6600
+type: Request
+parentId: fld_912eca5e6259457aa891d661c6f5b84a
+modified: 1655301670264
+created: 1655295167601
+url: "{{ _.baseURL }}/organizations"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Upa"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_25e36959172f46e9aac2603fe67184b8
+authentication: {}
+metaSortKey: -1655295167601
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

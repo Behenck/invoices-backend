@@ -1,0 +1,21 @@
+_id: req_de3dd2d7e6f54617ab0ee32161c1af5e
+type: Request
+parentId: fld_580acaf5b51246d3921d8315dc83b906
+modified: 1655302036417
+created: 1655301672492
+url: "{{ _.baseURL }}/issuers"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655301672492
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

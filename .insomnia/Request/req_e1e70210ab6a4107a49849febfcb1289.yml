@@ -1,0 +1,29 @@
+_id: req_e1e70210ab6a4107a49849febfcb1289
+type: Request
+parentId: fld_481642d208134e32bcc86a5cfaa506a9
+modified: 1655319356554
+created: 1655291069405
+url: "{{ _.baseURL }}/departments"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Tecnologia da Informação"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1f28253223a547ec98089d51756b23b6
+authentication: {}
+metaSortKey: -1655291069405
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

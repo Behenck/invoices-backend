@@ -1,0 +1,21 @@
+_id: req_87d6799bd13d48b29fa87a56aeabc999
+type: Request
+parentId: fld_912eca5e6259457aa891d661c6f5b84a
+modified: 1655294066908
+created: 1655294057689
+url: "{{ _.baseURL }}/organizations"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655294057689
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

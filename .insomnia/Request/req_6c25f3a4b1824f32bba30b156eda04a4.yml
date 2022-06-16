@@ -1,0 +1,21 @@
+_id: req_6c25f3a4b1824f32bba30b156eda04a4
+type: Request
+parentId: fld_481642d208134e32bcc86a5cfaa506a9
+modified: 1655293516467
+created: 1655293462553
+url: "{{ _.baseURL }}/departments"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1655293462553
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
